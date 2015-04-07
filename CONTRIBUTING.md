@@ -1,15 +1,17 @@
-# Contribute.md
-
-The most up-to-date version of this file will be in the `development` branch: https://github.com/adam-p/markdown-here/blob/development/CONTRIBUTE.md
-
-TODO: Write this.
-
-But the general idea is: It's not hard to get involved and help out. Feel free to submit a pull request or get in touch.
+# Contributing.md
 
 * Project page: https://github.com/adam-p/markdown-here
 * Google Group: https://groups.google.com/forum/#!forum/markdown-here
 * Website: http://markdown-here.com
 * Email me: pritchard.adam@gmail.com
+
+## Code contributions
+
+### Contributor license agreement
+
+When submitting a pull request for the first time, you will need to agree to the contributor license agreement (for [individuals](https://github.com/adam-p/markdown-here/blob/master/CLA-individual.md) or [entities](https://github.com/adam-p/markdown-here/blob/master/CLA-entity.md)). To do this, in the pull request please create a file with a name like `/contributors/{github_username}.md`, and in the content of that file indicate your agreement. An example of what that file should contain can be seen in [adam-p's agreement file](https://github.com/adam-p/markdown-here/blob/master/contributors/adam-p.md).
+
+(This method of CLA "signing" is borrowed from [Medium's open source project](https://github.com/medium/opensource).)
 
 ## Translation
 
@@ -62,3 +64,25 @@ If you do make any translation changes, or if you have any questions or problems
 * [nullepart](https://crowdin.com/profile/nullepart)
 
 * [sherkiv](https://crowdin.com/profile/sherkiv)
+
+* [LeahCim](https://crowdin.com/profile/LeahCim)
+
+* [Shen-Ta Hsiea](https://github.com/ibmibmibm)
+
+* [Erik Neves](https://crowdin.com/profile/7kire)
+
+* [J. Ignacio Reta Sabarrós](https://crowdin.com/profile/jirsis)
+
+* [danpansa](https://crowdin.com/profile/danpansa)
+
+* [trblnc](https://crowdin.com/profile/trblnc)
+
+* [Liu Cheng](https://crowdin.com/profile/willowcheng)
+
+* [Andrea Lazzarotto](https://crowdin.com/profile/Lazza)
+
+* [H. Salah Eddine](https://crowdin.com/profile/jamesconception)
+
+* [Yahya Erturan](https://crowdin.com/profile/yahyaerturan)
+
+* [Boris Lewandowski](https://crowdin.com/profile/bl)

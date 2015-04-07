@@ -1,5 +1,5 @@
 /*
- * Copyright Adam Pritchard 2014
+ * Copyright Adam Pritchard 2015
  * MIT License : http://adampritchard.mit-license.org/
  */
 
@@ -114,6 +114,7 @@ function getOperationalRange(focusedElem) {
 
   range = selection.getRangeAt(0);
 
+  /*? if(platform!=='mozilla'){ */
   // We're going to work around some weird OSX+Chrome/Safari behaviour where if you
   // right-click on a word it gets selected, which then causes us to render just
   // that one word and look dumb and be wrong.
@@ -126,6 +127,7 @@ function getOperationalRange(focusedElem) {
        range.toString().match(/^\b\w+\b$/))) {
     range.collapse(true);
   }
+  /*? } */
 
   if (range.collapsed) {
     // If there's no actual selection, select the contents of the focused element.
@@ -437,7 +439,7 @@ function renderMarkdown(focusedElem, selectedRange, markdownRenderer, renderComp
     // Thunderbird will discard the `div` if there's no content.
     rawHolder = '<div ' +
                 'title="' + WRAPPER_TITLE_PREFIX + Utils.utf8StringToBase64(originalHtml) + '" ' +
-                'style="height:0;font-size:0em;padding:0;margin:0;" ' +
+                'style="height:0;width:0;max-height:0;max-width:0;overflow:hidden;font-size:0em;padding:0;margin:0;" ' +
                 '>&#8203;</div>';
 
     // Wrap our pretty HTML in a <div> wrapper.
@@ -458,7 +460,7 @@ function renderMarkdown(focusedElem, selectedRange, markdownRenderer, renderComp
     // Monitor for changes to the content of the rendered MD. This will help us
     // prevent the user from silently losing changes later.
     // We're going to set this up after a short timeout, to help prevent false
-    // detections based on automatic chagnes by the host site.
+    // detections based on automatic changes by the host site.
     wrapper.ownerDocument.defaultView.setTimeout(function addMutationObserver() {
       var SupportedMutationObserver =
             wrapper.ownerDocument.defaultView.MutationObserver ||

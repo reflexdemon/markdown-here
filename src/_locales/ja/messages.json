@@ -79,7 +79,7 @@
     "description":"Text on the notification shown when Markdown Here has been updated"
   },
   "upgrade_notification_changes_tooltip":{
-    "message":"Click to see the changes in this release",
+    "message":"クリックでこのリリースでの変更点を確認",
     "description":"Tooltip text on the link that opens the changes list"
   },
   "upgrade_notification_dismiss_tooltip":{
@@ -204,7 +204,7 @@
     "description":"heading for warnings about TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_1":{
-    "message":"数式の画像を生成するためにGoogleにリクエストを送信します。 これはGoogleにあなたの数式が共有されることを意味します。 また、レンダリングされた画像を取得するためにGoogleにリクエストを送信することも意味します。これがこのオプションがデフォルトで無効になっている理由です。",
+    "message":"数式の画像を生成するためにGoogleにリクエストを送信します。 これはGoogleにあなたの数式が共有されることを意味します。 また、レンダリングされた画像を取得するためにGoogleにリクエストを送信することも意味します。",
     "description":"one of the TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_2":{
@@ -305,10 +305,10 @@
     "description":"A section title"
   },
   "options_page__contributing_1":{
-    "message":"<strong>もしメールにコードブロックを書いたことがあるなら、Markdown Hereをより良くすることができます。<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md\" target=\"_blank\">CONTRIBUTE.md<\/a>"
+    "message":"<strong>もしメールにコードブロックを書いたことがあるなら、Markdown Hereをより良くすることができます。<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md\" target=\"_blank\">CONTRIBUTING.md<\/a>"
   },
   "options_page__contributing_2":{
-    "message":"あなたの言語でMarkdown Hereを使えるように手助けしてください。<a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md#translation\" target=\"_blank\">あなたの翻訳を待っています。<\/a>"
+    "message":"あなたの言語でMarkdown Hereを使えるように手助けしてください。<a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md#translation\" target=\"_blank\">あなたの翻訳を待っています。<\/a>"
   },
   "options_page__footer_1":{
     "message":"<em>Markdown Here<\/em> はオープンソースです。 質問をしたり、バグを報告したり、機能追加の要望をしたり、開発に協力するには、 <a target=\"_blank\" href=\"https:\/\/github.com\/adam-p\/markdown-here\">Github のプロジェクトページ<\/a> か <a target=\"_blank\" href=\"https:\/\/groups.google.com\/forum\/?fromgroups=#!forum\/markdown-here\">Google Group<\/a> を訪れてください。",

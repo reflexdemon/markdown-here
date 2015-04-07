@@ -204,7 +204,7 @@
     "description":"heading for warnings about TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_1":{
-    "message":"To generate the image for the formula, a request is sent to Google. That effectively means that you are sharing your formula with Google. It also means that recipients of your message will be making a request to Google to have the image rendered. That's why this option is disabled by default.",
+    "message":"To generate the image for the formula, a request is sent to Google. That effectively means that you are sharing your formula with Google. It also means that recipients of your message will be making a request to Google to have the image rendered.",
     "description":"one of the TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_2":{
@@ -305,10 +305,10 @@
     "description":"A section title"
   },
   "options_page__contributing_1":{
-    "message":"<strong>If you have ever put a code block into an email, then you can help make Markdown Here better.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md\" target=\"_blank\">CONTRIBUTE.md<\/a>"
+    "message":"<strong>If you have ever put a code block into an email, then you can help make Markdown Here better.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md\" target=\"_blank\">CONTRIBUTING.md<\/a>"
   },
   "options_page__contributing_2":{
-    "message":"Help make Markdown Here available in your language. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md#translation\" target=\"_blank\">Translations are welcome.<\/a>"
+    "message":"Help make Markdown Here available in your language. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md#translation\" target=\"_blank\">Translations are welcome.<\/a>"
   },
   "options_page__footer_1":{
     "message":"<em>Markdown Here<\/em> is open source. To ask questions, report bugs, request features, or contribute, visit the <a target=\"_blank\" href=\"https:\/\/github.com\/adam-p\/markdown-here\">Github project page<\/a> or the <a target=\"_blank\" href=\"https:\/\/groups.google.com\/forum\/?fromgroups=#!forum\/markdown-here\">\"markdown-here\" Google Group<\/a>.",

@@ -79,7 +79,7 @@
     "description":"Text on the notification shown when Markdown Here has been updated"
   },
   "upgrade_notification_changes_tooltip":{
-    "message":"Click to see the changes in this release",
+    "message":"Bu sürümdeki değişiklikleri görmek için tıklayın",
     "description":"Tooltip text on the link that opens the changes list"
   },
   "upgrade_notification_dismiss_tooltip":{
@@ -204,7 +204,7 @@
     "description":"heading for warnings about TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_1":{
-    "message":"Bir formülün imajını üretmek için, Google'a istek gönderilir. Bu da formülanının Google'la paylaştığın anlamına gelir. Ayrıca, mesajın alıcıları da imajı görmek için Google'a istek gönderirler. Bu yüzden varsayılan seçenek bunun kapalı olmasıdır.",
+    "message":"Bir formülün imajını üretmek için, Google'a istek gönderilir. Bu da formülanının Google'la paylaştığın anlamına gelir. Ayrıca, mesajın alıcıları da imajı görmek için Google'a istek gönderirler.",
     "description":"one of the TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_2":{
@@ -305,10 +305,10 @@
     "description":"A section title"
   },
   "options_page__contributing_1":{
-    "message":"<strong>If you have ever put a code block into an email, then you can help make Markdown Here better.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md\" target=\"_blank\">CONTRIBUTE.md<\/a>"
+    "message":"<strong>Eğer e-posta içerisinde kod bloğu kullandıysanız, o zaman Markdown Here projesini daha iyiye taşımaya yardımcı olabilirsiniz.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md\" target=\"_blank\">CONTRIBUTING.md<\/a>"
   },
   "options_page__contributing_2":{
-    "message":"Markdown Here 'yi kendi dilinde kullanılabilir olması için yardımcı ol. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md#translation\" target=\"_blank\">Çevirilerinizi Bekleriz..<\/a>"
+    "message":"Markdown Here 'yi kendi dilinde kullanılabilir olması için yardımcı ol. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md#translation\" target=\"_blank\">Çevirilerinizi Bekleriz..<\/a>"
   },
   "options_page__footer_1":{
     "message":"<em>Markdown Here<\/em> açık kaynaktır.Soru sormak, hata raporu yollamak, yeni özellik istekleri ya da katkıda bulunmak için,   <a target=\"_blank\" href=\"https:\/\/github.com\/adam-p\/markdown-here\">Github proje sayfamızı<\/a> yada <a target=\"_blank\" href=\"https:\/\/groups.google.com\/forum\/?fromgroups=#!forum\/markdown-here\">\"markdown-here\" Google Grubumuzu<\/a> ziyaret edin. ",
@@ -332,7 +332,7 @@
   },
   "new_changelist_items":{
     "message":"YENİ",
-    "description":"Used to highlight the part of the changelist that is new"
+    "description":"Used to highlight the part of the changelist that is new. There will typically be multiple items in the list, so this should be considered plural."
   },
   "options_page__header_anchors_enabled_label":{
     "message":"<b>Otomatik başlık sabitleyicileri etkinleştir.<\/b>",

@@ -79,7 +79,7 @@
     "description":"Text on the notification shown when Markdown Here has been updated"
   },
   "upgrade_notification_changes_tooltip":{
-    "message":"Click to see the changes in this release",
+    "message":"Anklicken um Änderungen in dieser Version zu sehen",
     "description":"Tooltip text on the link that opens the changes list"
   },
   "upgrade_notification_dismiss_tooltip":{
@@ -204,7 +204,7 @@
     "description":"heading for warnings about TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_1":{
-    "message":"Um eine Formel als Bilddatei zu rendern, wird eine Anfrage an Google gesendet. Damit wird die Formel für Google freigegeben. Das bedeutet auch dass die Empfänger der Nachricht Anfragen an Google schicken müssen um das gerenderte Ergebnis zu sehen. Daher ist diese Option standardmäßig deaktiviert.",
+    "message":"Um eine Formel als Bilddatei zu rendern, wird eine Anfrage an Google gesendet. Damit wird die Formel für Google freigegeben. Das bedeutet auch dass die Empfänger der Nachricht Anfragen an Google schicken müssen um das gerenderte Ergebnis zu sehen.",
     "description":"one of the TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_2":{
@@ -305,10 +305,10 @@
     "description":"A section title"
   },
   "options_page__contributing_1":{
-    "message":"<strong>Wer jemals einen Code-Block per E-Mail versandt hat, kann auch helfen Markdown Here zu verbessern.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md\" target=\"_blank\">CONTRIBUTE.md<\/a>"
+    "message":"<strong>Wer jemals einen Code-Block per E-Mail versandt hat, kann auch helfen Markdown Here zu verbessern.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md\" target=\"_blank\">CONTRIBUTING.md<\/a>"
   },
   "options_page__contributing_2":{
-    "message":"Markdown Here in mehr Sprachen erhältlich machen. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md#translation\" target=\"_blank\">Übersetzungen sind willkommen.<\/a>"
+    "message":"Markdown Here in mehr Sprachen erhältlich machen. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md#translation\" target=\"_blank\">Übersetzungen sind willkommen.<\/a>"
   },
   "options_page__footer_1":{
     "message":"<em>Markdown Here<\/em> ist Open Source. Um Fragen zu stellen, Bug-Reports zu machen, Features zu erfragen, oder selbst beizutragen, siehe die <a target=\"_blank\" href=\"https:\/\/github.com\/adam-p\/markdown-here\">Github-Projektseite<\/a> oder die <a target=\"_blank\" href=\"https:\/\/groups.google.com\/forum\/?fromgroups=#!forum\/markdown-here\">\"markdown-here\" Google-Gruppe<\/a>.",
@@ -332,7 +332,7 @@
   },
   "new_changelist_items":{
     "message":"NEU",
-    "description":"Used to highlight the part of the changelist that is new"
+    "description":"Used to highlight the part of the changelist that is new. There will typically be multiple items in the list, so this should be considered plural."
   },
   "options_page__header_anchors_enabled_label":{
     "message":"<b>Aktiviere automatische Header-Anker.<\/b>",
@@ -345,7 +345,7 @@
     "message":"Dies ist standardmäßig deaktiviert weil es <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/issues\/155\" target=\"_blank\">in Thunderbird visuell ablenkt<\/a>. (Und die meisten Leute benutzen dieses Feature wahrscheinlich nicht.)"
   },
   "options_page__gfm_line_breaks_enabled_label":{
-    "message":"<b>Enable GFM line breaks.<\/b>",
+    "message":"<b>Aktivieren der GFM Zeilenumbrüche.<\/b>",
     "description":"Label for the checkbox that enables the support of 'Github-flavored Markdown' line breaks."
   }
 }

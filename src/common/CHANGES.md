@@ -1,6 +1,72 @@
 Change Log
 ==========
 
+**The new logo is happening! Graphically-inclined people needed!** Submit your design, and the MDH users will vote on the next logo. Exciting! [Details are on the website.](http://markdown-here.com/logo.html)
+
+
+2015-04-06: v2.11.7
+-------------------
+
+* No user-facing code changes. Modifications to pass Mozilla review. (Added a preprocessor to strip out cross-browser code.)
+
+
+2015-03-29: v2.11.5
+-------------------
+
+* [Fixed bug #243](https://github.com/adam-p/markdown-here/issues/243): Due to the way paragraphs were styled, there appeared to be a "blank line" inserted at the top when your Markdown-Here-rendered your content. The styling was changed to correct this.
+  - **Note**: In order to get this styling change, you will need to [reset your Primary Styling CSS](https://github.com/adam-p/markdown-here/wiki/Troubleshooting#getting-the-latest-primary-styling-css).
+  - Thanks to [James F McMahon](https://github.com/JamesMcMahon) for reporting the issue.
+
+* Changed styling of sub-ordered-lists to match Github's: Top level is still numbers, first sub level is Roman letters, second sub level is Roman numerals. Will make your email lists look totally pro. 
+  - **Note**: In order to get this styling change, you will need to [reset your Primary Styling CSS](https://github.com/adam-p/markdown-here/wiki/Troubleshooting#getting-the-latest-primary-styling-css).
+  - Thanks to [Andrew Greenberg](https://github.com/wizardwerdna) for [pointing out](https://github.com/adam-p/markdown-here/issues/255) Github's styling, and an unnamed user in a [Google Groups post](https://groups.google.com/forum/#!topic/markdown-here/E-5tSHCAlpg) who also asked about list styling.
+
+* [Fixed bug #237](https://github.com/adam-p/markdown-here/issues/237): Made Mozilla preferences handling more robust. Helps to deal with non-ANSI characters, synchronization, and corruption. 
+  - Thanks to [flying-sheep](https://github.com/flying-sheep) for reporting the corruption problem and helping to diagnose it.
+
+* Added and updated translations:
+  - **Italian**: [Andrea Lazzarotto](https://crowdin.com/profile/Lazza)
+  - German: [Boris Lewandowski](https://crowdin.com/profile/bl)
+  - French: [H. Salah Eddine](https://crowdin.com/profile/jamesconception)
+  - Turkish: [Yahya Erturan](https://crowdin.com/profile/yahyaerturan)
+
+* And thanks to Erin for looking after Wulfie long enough for me to put this release together.
+
+
+2015-02-16: v2.11.4
+-------------------
+
+* [Fixed bug #233](https://github.com/adam-p/markdown-here/issues/233): Reference links were broken if the URL part was pre-formatted.
+  - Big thanks to [Meng Wang](https://github.com/wm8120) for finding this bug, fixing it, adding tests, and submitting a [pull request](https://github.com/adam-p/markdown-here/pull/232).
+
+* Added forgot-to-render check support for "Inbox by Google".
+
+* Updated translations:
+  - Chinese Simplified: [Liu Cheng](https://crowdin.com/profile/willowcheng) and [sherkiv](https://crowdin.com/profile/sherkiv).
+  - Chinese Traditional: [BestSteve](https://crowdin.com/profile/BestSteve).
+  - Russian: [Asber](https://crowdin.com/profile/Asber).
+
+
+2014-11-10: v2.11.3
+-------------------
+
+* **Improved compatibilty with screen readers**. Much thanks to [Sofian Babai](https://twitter.com/sofquipeut) for reporting the problem and helping to solve it. The primary fix target was Windows+Thunderbird+NVDA, but if anyone finds any cases where the fix is incomplete, please describe the scenario in the [Github issue](https://github.com/adam-p/markdown-here/issues/222) for it. 
+  - Thanks also to [Sukil Echenique](https://github.com/sukiletxe) for reporting the [original issue](https://github.com/adam-p/markdown-here/issues/185).
+
+* [Fixed bug #223](https://github.com/adam-p/markdown-here/issues/223): Keyboard shortcut was not working in Gmail on Firefox.
+
+* Added and updated translations:
+  - **Polish**: [LeahCim](https://crowdin.com/profile/LeahCim).
+  - **Portuguese (Brazilian)**: [Erik Neves](https://crowdin.com/profile/7kire).
+  - **Chinese Traditional**: [Shen-Ta Hsiea](https://github.com/ibmibmibm).
+  - Spanish: [sergiolunagarcia](https://crowdin.com/profile/sergiolunagarcia) and [J. Ignacio Reta Sabarrós](https://crowdin.com/profile/jirsis).
+  - Japanese: [danpansa](https://crowdin.com/profile/danpansa).
+  - Turkish: [trblnc](https://crowdin.com/profile/trblnc).
+  - Chinese Simplified: [Liu Cheng](https://crowdin.com/profile/willowcheng).
+
+* TeX math support is now enabled by default (for new users). ([Issue #213](https://github.com/adam-p/markdown-here/issues/213).)
+
+
 2014-09-18: v2.11.2
 -------------------
 
@@ -31,7 +97,7 @@ Change Log
   - Thanks to: [Paulo Diovani Gonçalves](https://github.com/paulodiovani), [Edmundo Junior](https://github.com/edmundojr), [Mike Lindegarde](https://github.com/mlindegarde), [Jordi Gerona](https://github.com/jordi9), [Dilek](https://github.com/averagewizard), [Hrusikesh Panda](https://github.com/mrchief), [Clay McKell](https://github.com/kcmckell), [Trey Harris](https://groups.google.com/forum/#!topic/markdown-here/SnQ4fVtQvQQ).
 
 * With the help of our hard-working translators, **six new translations** were added. They are: Chinese, French, German, Russian, Spanish, and Turkish.
-  - Thanks to: [Antoine Proulx](https://crowdin.com/profile/magicienap), [ebouchut](https://crowdin.com/profile/ebouchut), [Lennaick](https://crowdin.com/profile/lennaick), [leftaroundabout](https://crowdin.com/profile/leftaroundabout), [Pierre Quillery](https://crowdin.com/profile/dandelionmood), [Ko-Chih Wu](https://crowdin.com/profile/mecca831), [Masahiro Umegaki](https://crowdin.com/profile/ume), [dlkgenc](https://crowdin.com/profile/dlkgenc), [turkish123](https://crowdin.com/profile/turkish123), [sergiolunagarcia](https://crowdin.com/profile/sergiolunagarcia), [Alexis Morelle](https://crowdin.com/profile/almorelle), and my friend and co-worker [Eugene Fryntov](https://crowdin.com/profile/efryntov). (You're all also in the [contributors list](https://github.com/adam-p/markdown-here/blob/development/CONTRIBUTE.md).)
+  - Thanks to: [Antoine Proulx](https://crowdin.com/profile/magicienap), [ebouchut](https://crowdin.com/profile/ebouchut), [Lennaick](https://crowdin.com/profile/lennaick), [leftaroundabout](https://crowdin.com/profile/leftaroundabout), [Pierre Quillery](https://crowdin.com/profile/dandelionmood), [Ko-Chih Wu](https://crowdin.com/profile/mecca831), [Masahiro Umegaki](https://crowdin.com/profile/ume), [dlkgenc](https://crowdin.com/profile/dlkgenc), [turkish123](https://crowdin.com/profile/turkish123), [sergiolunagarcia](https://crowdin.com/profile/sergiolunagarcia), [Alexis Morelle](https://crowdin.com/profile/almorelle), and my friend and co-worker [Eugene Fryntov](https://crowdin.com/profile/efryntov). (You're all also in the [contributors list](https://github.com/adam-p/markdown-here/blob/master/CONTRIBUTING.md).)
   - If you'd like to start a new language, add to a not-quite-complete translation, or fix up something, please visit the [Markdown Here translation project on Crowdin](https://crowdin.com/project/markdown-here).
 
 * **Updated [Highglight.js](http://highlightjs.org/)**, which is the syntax highlighting library used by Markdown Here.
@@ -69,7 +135,7 @@ Change Log
 2014-01-29: v2.10.0
 -------------------
 
-* Markdown Here has been **translated into Japanese**! It's also **ready to be translated into your language**, so please take a look at [CONTRIBUTE.md](https://github.com/adam-p/markdown-here/blob/development/CONTRIBUTE.md) and our [Crowdin project](https://crowdin.net/project/markdown-here). Getting involved is super easy.
+* Markdown Here has been **translated into Japanese**! It's also **ready to be translated into your language**, so please take a look at [CONTRIBUTING.md](https://github.com/adam-p/markdown-here/blob/master/CONTRIBUTING.md) and our [Crowdin project](https://crowdin.net/project/markdown-here). Getting involved is super easy.
   * Huge thanks to [lambdaalice](https://github.com/lambdalice), who provided a [full Japanese translation](https://groups.google.com/forum/#!topic/markdown-here/2XoUrKY_CpQ) out of the blue, forcing me to [do the work](https://github.com/adam-p/markdown-here/issues/143) to be able to use it.
 
 * The **automatic addition of anchors to headings** is now an option and **disabled by default**. Guido Hoermann quite rightly [pointed out](https://groups.google.com/d/msg/markdown-here/eaq1JoNhyws/s02CV8rTJ30J) that it creates annoying visual noise in Thunderbird. It's probably not used enough to justify being enabled by default, and it's very easy to re-enable it (bottom of the options page).

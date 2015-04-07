@@ -204,7 +204,7 @@
     "description":"heading for warnings about TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_1":{
-    "message":"Afin de générer une image pour la formule, une requête est effectuée chez Google. Cela signifie concrètement que vous partagez cette formule avec Google. Cela signifie également que les récipiendaires de votre message feront également une requête chez Google pour calculer cette image. C'est pour cette raison que cette option est désactivée par défaut.",
+    "message":"Afin de générer une image pour la formule, une requête est effectuée chez Google. Cela signifie concrètement que vous partagez cette formule avec Google. Cela signifie également que les récipiendaires de votre message feront également une requête chez Google pour calculer cette image.",
     "description":"one of the TeX math privacy concerns"
   },
   "options_page__tex_math_privacy_issue_2":{
@@ -305,10 +305,10 @@
     "description":"A section title"
   },
   "options_page__contributing_1":{
-    "message":"<strong>Si vous avez déjà mis un bloc de code dans un courriel, vous pouvez aider à améliorer Markdown Here.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md\" target=\"_blank\"> CONTRIBUTE.md<\/a>"
+    "message":"<strong>Si vous avez déjà mis un bloc de code dans un courriel, vous pouvez aider à améliorer Markdown Here.<\/strong> <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md\" target=\"_blank\"> CONTRIBUTING.md<\/a>"
   },
   "options_page__contributing_2":{
-    "message":"Aidez à rendre Markdown Here disponible dans votre langue. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/development\/CONTRIBUTE.md#translation\" target=\"_blank\">Les traducations sont les bienvenues.<\/a>"
+    "message":"Aidez à rendre Markdown Here disponible dans votre langue. <a href=\"https:\/\/github.com\/adam-p\/markdown-here\/blob\/master\/CONTRIBUTING.md#translation\" target=\"_blank\">Les traducations sont les bienvenues.<\/a>"
   },
   "options_page__footer_1":{
     "message":"<em>Markdown Here<\/em> est libre. Pour poser des questions, rapporter des bogues, proposer des fonctionnalités ou pour contribuer, visitez la <a target=\"_blank\" href=\"https:\/\/github.com\/adam-p\/markdown-here\">page Gihub du projet (en anglais)<\/a> ou le <a target=\"_blank\" href=\"https:\/\/groups.google.com\/forum\/?fromgroups=#!forum\/markdown-here\">Groupe Google « markdown-here » (en anglais)<\/a>.",
@@ -332,7 +332,7 @@
   },
   "new_changelist_items":{
     "message":"NOUVEAU",
-    "description":"Used to highlight the part of the changelist that is new"
+    "description":"Used to highlight the part of the changelist that is new. There will typically be multiple items in the list, so this should be considered plural."
   },
   "options_page__header_anchors_enabled_label":{
     "message":"<b>Activer les ancres d'en-tête automatiques.<\/b>",
